@@ -277,7 +277,8 @@ int main() {
 
         if (replay == 'Y' || replay == 'y') {
             gameWon = false;
-            cout << "Get ready, now it's Player " << currentPlayer << "'s turn!\n\n"; 
+            initializeBoard();
+            cout << "Get ready, now it's Player " << currentPlayer << "'s turn!\n\n";
         }
     }
 
